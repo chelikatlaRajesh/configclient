@@ -42,7 +42,7 @@ public class CustController {
 		return c;
 		
 	}
-	@GetMapping("findall")
+	@GetMapping("findallCustomers")
 public List<Customer>findall(){ 
 	return impl.findall();
 		
